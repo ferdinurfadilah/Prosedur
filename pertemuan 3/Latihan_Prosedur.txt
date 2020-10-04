@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+void nilairatarata(){
+	int x, y, n, i;
+	
+	cout<<"Jumlah Peserta Ujian = ";cin>>n;
+	cout<<"nilai ujian yang ke-1 = ";cin>>x;
+	cout<<"nilai ujian yang ke-2 = ";cin>>y;
+	
+	i = (x + y)/2;
+	cout<<"nilai rata-rata = "<<i<<endl;
+	
+	if(i > 50){
+		cout<<"nilai rata rata ujian bagus"<<endl;
+	}else {
+		cout<<"nilai rata rata ujian tidak bagus"<<endl;
+	}
+}
+int main (){
+	nilairatarata();
+	return 0;
+}
+
